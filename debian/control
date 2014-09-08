@@ -1,8 +1,9 @@
 Source: codespeak-lib
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Sebastian Ramacher <sramacher@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Sebastian Ramacher <sramacher@debian.org>
 Build-Depends:
  debhelper (>= 9),
  dh-python,
@@ -16,6 +17,7 @@ XS-Testsuite: autopkgtest
 X-Python3-Version: >= 3.2
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/codespeak-lib/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/codespeak-lib/trunk/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: python3-py
 Architecture: all
